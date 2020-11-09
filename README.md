@@ -7,6 +7,7 @@
 - Refine iptables ruleset, additionally illustrating how, in event of OpenVPN connection failure, inbound and outbound traffic will be dropped on the virtual interface
 - Examples of how to correctly add in additional services to use the OpenVPN client in the correct manner
 - Clean up stray variable assignments
+- Automagically apply tun/tap interface to qbittorrent config so there are no mistakes
 
 # qBittorrent with WebUI and OpenVPN
 Docker container which runs the latest headless qBittorrent client with WebUI while connecting to OpenVPN with iptables killswitch to prevent IP leakage when the tunnel goes down. This is an automated build linked with Ubuntu.
